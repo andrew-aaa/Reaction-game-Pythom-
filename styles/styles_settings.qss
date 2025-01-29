@@ -1,0 +1,40 @@
+QWidget {
+    background-color: black;
+    color: white;
+}
+
+QLabel {
+    color: white;
+    font-size: 18px;
+}
+
+QSlider::groove:horizontal {
+    height: 15px;
+    margin: 0 12px;
+    background: gray;
+    border-radius: 7px;
+}
+
+QSlider::handle:horizontal {
+    width: 30px;
+    margin: -13px 0;
+    background: white;
+    border-radius: 7px;
+}
+
+QSlider::sub-page:horizontal {
+    background: lightgray;
+    border-radius: 7px;
+}
+
+QPushButton {
+    border-radius: 10px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+}
+
+QPushButton:pressed {
+    background-color: lightgrey;
+}
