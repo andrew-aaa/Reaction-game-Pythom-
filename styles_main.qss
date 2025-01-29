@@ -1,0 +1,16 @@
+QWidget {
+    background-color: black;
+}
+
+QPushButton {
+    border-radius: 10px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    font: Arial;
+    font-size: 16px;
+}
+
+QPushButton:pressed {
+    background-color: lightgrey;
+}
